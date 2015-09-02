@@ -1,9 +1,5 @@
 body,
 .banner,
-.media-view:hover,
-.media-view.hovered,
-.media-view:hover .banner,
-.media-view.hovered .banner,
 .homepage .module-search .module-content,
 .masthead,
 .site-footer,
@@ -51,4 +47,38 @@ body,
 .header-image img{
    width:200px;
    padding-top:5px;
+}
+.masthead .navigation .nav-pills li a:hover,.masthead .navigation .nav-pills li.active a,
+.site-footer .navigation .nav-pills li a:hover,.site-footer .navigation .nav-pills li.active a,
+.site-footer .btn-navbar,.site-footer .btn-navbar:hover,.site-footer .btn-navbar:focus,.site-footer .btn-navbar:active,.site-footer .btn-navbar.active,.site-footer .btn-navbar.disabled,.site-footer .btn-navbar[disabled],
+.masthead .btn-navbar,.masthead .btn-navbar:hover,.masthead .btn-navbar:focus,.masthead .btn-navbar:active,.masthead .btn-navbar.active,.masthead .btn-navbar.disabled,.masthead .btn-navbar[disabled],
+.homepage .module-search .tags,
+.account-masthead{
+  background-color: #003d46;
+}
+
+.media-image{
+  max-height: 50px;
+}
+
+.image img{
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.label[data-format="wcs"]{
+  background-color: #84a98c;
+}
+
+.label[data-format="wms"]{
+  background-color: #52796f;
+}
+
+.label[data-format="opendap"]{
+  background-color: #586994;
+}
+
+.label[data-format="picker"]{
+  background-color: #A63446;
 }
