@@ -82,3 +82,17 @@ body,
 .label[data-format="picker"]{
   background-color: #A63446;
 }
+
+@media (max-width: 768px){
+  .homepage.layout-1 .row1 .col2 {
+    position: ;
+    top: auto;
+    right: auto;
+    left: auto;
+    width: 100%;
+  }
+  .hero{
+    background:none;
+    min-height: 225px;
+  }
+}
