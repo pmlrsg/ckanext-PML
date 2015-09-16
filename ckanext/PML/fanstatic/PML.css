@@ -35,6 +35,7 @@ body,
    background: url("//c2.staticflickr.com/6/5299/13973617311_049413f6ca_k.jpg");
    background-size:cover;
    background-position: center;
+   min-height: 350px;
 }
 
 .homepage.layout-1 .row1 .col2 {
@@ -97,6 +98,3 @@ body,
   }
 }
 
-[role="main"] {
-       min-height: 350px;
-}
