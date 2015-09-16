@@ -96,3 +96,7 @@ body,
     min-height: 225px;
   }
 }
+
+[role="main"] {
+       min-height: 350px;
+}
